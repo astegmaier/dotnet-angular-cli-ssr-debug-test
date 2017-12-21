@@ -15,14 +15,15 @@ Prerequisites: npm and the dotnet core cli
 warn: Microsoft.AspNetCore.NodeServices[0]
       Debugger listening on ws://127.0.0.1:9229/652cb200-9bc5-4de6-bbe8-dbcc3ff3be00
 ```
-6. Open a chrome tab and enter:
+6. Open a chrome tab to this URL (replacing the GUID in this string with the GUID in the command line in step #5):
 ```
 chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9229/652cb200-9bc5-4de6-bbe8-dbcc3ff3be00
 ```
-(replace the GUID in this string with the guid seen from the command line)
+
 
 # Result
-In the chrome debugger, you will only see the minified .js files, rather than the full (more useful) source files
+In the chrome debugger, you will only see the minified .js files, rather than the full (more useful) source files:
+![chrome debugger](https://github.com/astegmaier/dotnet-angular-cli-ssr-debug-test/raw/master/Repro.png)
 
 # How this repo was built
 1. Install the latest Angular-Cli-based templates:
