@@ -8,14 +8,15 @@ Prerequisites: npm and the dotnet core cli
 
 1. Clone this repo locally, or follow the "How this repo was built" instructions below to start from scratch.
 2. From the `ClientApp` directory, run `npm install`.
-3. From the root project directory run `dotnet run`.
-4. Navigate a browser window to http://localhost:5000
-5. Look for ouput in the command line that looks like this:
+3. Set environment to development: `set ASPNET_ENVIRONMENT=Development` (Windows) `export ASPNET_ENVIRONMENT=Development` (Mac/Linxu)
+4. From the root project directory run `dotnet run`.
+5. Navigate a browser window to http://localhost:5000
+6. Look for ouput in the command line that looks like this:
 ```
 warn: Microsoft.AspNetCore.NodeServices[0]
       Debugger listening on ws://127.0.0.1:9229/652cb200-9bc5-4de6-bbe8-dbcc3ff3be00
 ```
-6. Open a chrome tab to this URL (replacing the GUID in this string with the GUID in the command line in step #5):
+7. Open a chrome tab to this URL (replacing the GUID in this string with the GUID in the command line in step #6):
 ```
 chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9229/652cb200-9bc5-4de6-bbe8-dbcc3ff3be00
 ```
