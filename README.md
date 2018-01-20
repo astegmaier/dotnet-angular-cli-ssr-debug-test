@@ -27,9 +27,9 @@ In the chrome debugger, you will only see the minified .js files, rather than th
 ![chrome debugger](https://github.com/astegmaier/dotnet-angular-cli-ssr-debug-test/raw/master/Repro.png)
 
 # How this repo was built
-1. Install the latest Angular-Cli-based templates:
+1. Install the [latest Angular-Cli-based templates](https://docs.microsoft.com/en-us/aspnet/core/spa/):
 ```
-dotnet new --install Microsoft.DotNet.Web.Spa.ProjectTemplates::2.0.0-preview1-final
+dotnet new --install Microsoft.DotNet.Web.Spa.ProjectTemplates::2.0.0-rc1-final
 ```
 2. Create a new directory, navigate to it, and run:
 ```
