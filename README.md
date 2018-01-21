@@ -10,7 +10,7 @@ Prerequisites: npm and the dotnet core cli
 
 1. Clone this repo locally, or follow the "How this repo was built" instructions below to start from scratch.
 2. From the `ClientApp` directory, run `npm install`.
-3. Set environment to development: `set ASPNET_ENVIRONMENT=Development` (Windows) `export ASPNET_ENVIRONMENT=Development` (Mac/Linxu)
+3. Set environment to development: `set ASPNET_ENVIRONMENT=Development` (Windows) `export ASPNET_ENVIRONMENT=Development` (Mac/Linux)
 4. From the root project directory run `dotnet run`.
 5. Navigate a browser window to http://localhost:5000
 6. Look for ouput in the command line that looks like this:
