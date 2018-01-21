@@ -2,7 +2,7 @@
 
 This repository is a simplified repro to test server-side debugging capibilities using the latest [ASP.NET Core Angular-Cli-based templates](https://docs.microsoft.com/en-us/aspnet/core/spa/index#installation). Currently, there appears to be an issue with .map files not being generated for the server-side bundles, and this results in a server-side debug experience where you can only debug the minified javascript code, rather than the source typescript files.
 
-The issue in [#8931 in the CLI repo](https://github.com/angular/angular-cli/issues/8931) and [#1449](https://github.com/aspnet/JavaScriptServices/issues/1449) in the JavaScriptServices repo
+The issue is tracked in [#8931 in the CLI repo](https://github.com/angular/angular-cli/issues/8931) and [#1449 in the JavaScriptServices repo](https://github.com/aspnet/JavaScriptServices/issues/1449).
 
 # Repro Steps
 
